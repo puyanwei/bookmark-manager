@@ -8,8 +8,8 @@
 feature 'Adding links' do
   before do
     DatabaseCleaner.strategy = :truncation
-    # Link.create(url: 'http://www.makersacademy.com', title: 'Makers Academy')
-    # DatabaseCleaner.start
+    Link.create(url: 'http://www.makersacademy.com', title: 'Makers Academy')
+    DatabaseCleaner.start
   end
 
   after do
