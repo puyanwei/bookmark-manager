@@ -9,6 +9,8 @@ gem 'dm-postgres-adapter'
 gem 'simplecov', require: false, group: :test
 gem 'simplecov-console', require: false, group: :test
 gem 'database_cleaner'
+gem 'rerun'
+gem 'selenium-webdriver'
 
 group :test do
   gem 'capybara'
